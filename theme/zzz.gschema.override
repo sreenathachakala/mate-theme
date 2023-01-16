@@ -1,0 +1,14 @@
+[org.mate.panel]
+default-layout='custom-mate'
+object-id-list=['matemenu', 'firefox', 'notification-area', 'indicatorappletcomplete', 'show-desktop', 'window-list', 'workspace-switcher', 'trashapplet']
+
+[org.mate.interface]
+gtk-theme='MATE_THEME'
+# icon-theme='Ambiant-MATE'
+
+[org.mate.Marco.general]
+theme='MATE_THEME'
+
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/MATE_IMAGE'
+show-desktop-icons=false
