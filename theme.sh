@@ -1,6 +1,6 @@
 #!/bin/bash
-tar -xf /mate-theme/theme/$MATE_THEME
-cd /icon-theme && tar -xf /icon-theme/$MATE_ICON_THEME
+tar -xf /mate-theme/theme/$MATE_THEME.tar.xz
+cd /icon-theme && tar -xf /icon-theme/$MATE_ICON_THEME.tar.xz
 chown -R root:root /mate-theme/theme/$MATE_THEME
 cp -r /mate-theme/theme/$MATE_THEME /usr/share/themes/$MATE_THEME
 cp -r /mate-theme/theme/$MATE_ICON_THEME /usr/share/icons/$MATE_ICON_THEME
