@@ -1,9 +1,13 @@
 [org.mate.interface]
 gtk-theme='MATE_THEME'
-# icon-theme='Ambiant-MATE'
+icon-theme='MATE_ICON_THEME'
 
 [org.mate.Marco.general]
 theme='MATE_THEME'
+
+[org.gnome.desktop.interface]
+gtk-theme='MATE_THEME'
+icon-theme='MATE_ICON_THEME'
 
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/MATE_IMAGE'
