@@ -5,6 +5,78 @@
 		<name>Black</name>
 		<filename>/usr/share/backgrounds/MATE_IMAGE</filename>
 		<options>zoom</options>
-		<artist>Jags Desai</artist>
+		<artist>Ray Sharma</artist>
 	</wallpaper>
+	<wallpaper deleted="false">
+        <name>AltosBluePaisley</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosBluePaisley.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosBlueSky</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosBlueSky.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosBrand</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosBrand.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosBrand01</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosBrand01.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosBrand02</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosBrand02.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosGreenSea</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosGreenSea.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosLight</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosLight.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosPurpleAnemone</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosPurpleAnemone.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosSunflower</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosSunflower.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>AltosTeal</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosTeal.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+	<wallpaper deleted="false">
+        <name>AltosTeal</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosTeal.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
+	<wallpaper deleted="false">
+        <name>AltosTurquoise</name>
+        <filename>/usr/share/backgrounds/ubuntu-mate-common/AltosTurquoise.jpg</filename>
+        <options>zoom</options>
+        <artist>Ray Sharma</artist>
+    </wallpaper>
 </wallpapers>
