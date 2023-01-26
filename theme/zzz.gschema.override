@@ -6,6 +6,10 @@ document-font-name='FONT_NAME'
 
 [org.mate.Marco.general]
 theme='MATE_THEME'
+titlebar-font='TITLEBAR_FONT_NAME'
+
+[org.mate.caja.desktop]
+font='FONT_NAME'
 
 [org.gnome.desktop.interface]
 gtk-theme='MATE_THEME'

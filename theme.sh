@@ -2,8 +2,11 @@
 cd /mate-theme/theme/ && tar -xf $MATE_THEME.tar.xz
 cd /mate-theme/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
 cd /mate-theme/icon-theme && tar -xf $MATE_ICON_THEME.tar.xz
-cd /mate-theme/fonts && tar -xf $FONTFILE.tar.xz
+cd /mate-theme/fonts && unzip $FONTFILE.zip -d $FONTFILE
 
+ls /mate-theme/theme
+ls /mate-theme/icon-theme
+ls /mate-theme/fonts
 
 chown -R root:root /mate-theme/theme/$MATE_THEME
 chown -R root:root /mate-theme/theme/$MATE_THEME_DARK
@@ -71,6 +74,9 @@ sed -i 's/MATE_IMAGE/'"$MATE_IMAGE"'/' /usr/share/mate-background-properties/ubu
 sed -i 's/MATE_THEME/'"$MATE_THEME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
 sed -i 's/MATE_IMAGE/'"$MATE_IMAGE"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
 sed -i 's/MATE_ICON_THEME/'"$MATE_ICON_THEME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
+sed -i 's/FONT_NAME/'"$FONT_NAME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
+sed -i 's/TITLEBAR_FONT_NAME/'"$TITLEBAR_FONT_NAME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
+
 
 chown root:root /usr/share/mate-background-properties/ubuntu-mate-custom.xml
 chown root:root /usr/share/backgrounds/$MATE_IMAGE
