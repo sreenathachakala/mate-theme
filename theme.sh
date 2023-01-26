@@ -29,7 +29,7 @@ cp /mate-theme/theme/ubuntu-mate-custom.xml /usr/share/mate-background-propertie
 cp /mate-theme/theme/$MATE_IMAGE /usr/share/backgrounds/$MATE_IMAGE
 cp /mate-theme/theme/zzz.gschema.override /usr/share/glib-2.0/schemas/zzz.gschema.override
 # cp /mate-theme/theme/custom-mate.layout /usr/share/mate-panel/layouts/custom-mate.layout
-cp -a /mate-theme/backgrounds/. /usr/share/backgrounds/ubuntu-mate-photos/
+cp -a /mate-theme/backgrounds/. /usr/share/backgrounds/ubuntu-mate-common/
 
 # cp /mate-theme/icon-theme/start-here.svg /usr/share/icons/$MATE_ICON_THEME/places/*/start-here.svg
 # cp /mate-theme/icon-theme/start-here.svg /usr/share/icons/$MATE_ICON_THEME/places/*/start-here-symbolic.svg
