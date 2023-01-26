@@ -6,7 +6,7 @@ export MATE_ICON_THEME_DARK=WhiteSur
 export MATE_IMAGE=Black.jpg
 export FONTFILE=IBM_Plex_Sans
 export FONT_NAME='IBM Plex Sans 11'
-export TITLEBAR_FONT_NAME='IBM Plex Sans Medium 11'
+export TITLEBAR_FONTNAME='IBM Plex Sans Medium 11'
 
 cd /mate-theme/theme/ && tar -xf $MATE_THEME.tar.xz
 cd /mate-theme/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
@@ -82,7 +82,7 @@ sed -i 's/MATE_THEME/'"$MATE_THEME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.o
 sed -i 's/MATE_IMAGE/'"$MATE_IMAGE"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
 sed -i 's/MATE_ICON_THEME/'"$MATE_ICON_THEME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
 sed -i 's/FONT_NAME/'"$FONT_NAME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
-sed -i 's/TITLEBAR_FONT_NAME/'"$TITLEBAR_FONT_NAME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
+sed -i 's/TITLEBAR_FONTNAME/'"$TITLEBAR_FONTNAME"'/' /usr/share/glib-2.0/schemas/zzz.gschema.override
 
 
 chown root:root /usr/share/mate-background-properties/ubuntu-mate-custom.xml

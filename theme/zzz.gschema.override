@@ -6,7 +6,7 @@ document-font-name='FONT_NAME'
 
 [org.mate.Marco.general]
 theme='MATE_THEME'
-titlebar-font='TITLEBAR_FONT_NAME'
+titlebar-font='TITLEBAR_FONTNAME'
 
 [org.mate.caja.desktop]
 font='FONT_NAME'
