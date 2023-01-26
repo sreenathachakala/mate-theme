@@ -2,8 +2,8 @@
 cd /mate-theme/theme/ && tar -xf $MATE_THEME.tar.xz
 cd /mate-theme/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
 cd /mate-theme/icon-theme && tar -xf $MATE_ICON_THEME.tar.xz
+cd /mate-theme/fonts && tar -xf $FONTFILE.tar.xz
 
-ls /mate-theme/theme
 
 chown -R root:root /mate-theme/theme/$MATE_THEME
 chown -R root:root /mate-theme/theme/$MATE_THEME_DARK
@@ -12,6 +12,7 @@ cp -r /mate-theme/theme/$MATE_THEME /usr/share/themes/$MATE_THEME
 cp -r /mate-theme/theme/$MATE_THEME_DARK /usr/share/themes/$MATE_THEME_DARK
 cp -r /mate-theme/icon-theme/$MATE_ICON_THEME /usr/share/icons/$MATE_ICON_THEME
 cp -r /mate-theme/icon-theme/$MATE_ICON_THEME_DARK /usr/share/icons/$MATE_ICON_THEME_DARK
+cp -a /mate-theme/fonts/$FONTFILE/. /usr/share/fonts/
 cp /mate-theme/theme/ubuntu-mate-custom.xml /usr/share/mate-background-properties/ubuntu-mate-custom.xml
 cp /mate-theme/theme/$MATE_IMAGE /usr/share/backgrounds/$MATE_IMAGE
 cp /mate-theme/theme/zzz.gschema.override /usr/share/glib-2.0/schemas/zzz.gschema.override
