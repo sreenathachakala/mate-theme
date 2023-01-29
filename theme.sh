@@ -76,6 +76,8 @@ cp -a /mate-theme/backgrounds/. /usr/share/backgrounds/ubuntu-mate-common/
 #  /usr/share/icons/$MATE_ICON_THEME/status/24/start-here-symbolic.svg \
 #  /usr/share/icons/$MATE_ICON_THEME/status/symbolic/start-here-symbolic.svg
 
+chmod -R 777 /usr/share/plank/themes/
+
 
 sed -i 's/MATE_THEME/'"$MATE_THEME"'/' /usr/share/mate-background-properties/ubuntu-mate-custom.xml
 sed -i 's/MATE_IMAGE/'"$MATE_IMAGE"'/' /usr/share/mate-background-properties/ubuntu-mate-custom.xml
