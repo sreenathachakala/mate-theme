@@ -9,7 +9,9 @@ export FONT_NAME='IBM Plex Sans 11'
 export TITLEBAR_FONTNAME='IBM Plex Sans Medium 11'
 export DOCK_THEME='mcOS-BS-iMacM1-Black'
 
-sudo apt install plank
+sudo apt install plank -y
+
+ls /mate-theme/icon-theme/
 
 cd /mate-theme/theme/ && tar -xf $MATE_THEME.tar.xz
 cd /mate-theme/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
