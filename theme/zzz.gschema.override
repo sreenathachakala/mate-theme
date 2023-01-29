@@ -24,3 +24,4 @@ show-desktop-icons=false
 [net.launchpad.plank.dock.settings]
 theme='DOCK_THEME'
 hide-mode='dodge-active'
+offset=0
