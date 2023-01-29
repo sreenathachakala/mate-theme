@@ -7,9 +7,9 @@ export MATE_IMAGE=Black.jpg
 export FONTFILE=IBM_Plex_Sans
 export FONT_NAME='IBM Plex Sans 11'
 export TITLEBAR_FONTNAME='IBM Plex Sans Medium 11'
-export DOCK_THEME='mcOS-BS-iMacM1-Black'
+export DOCK_THEME='mcOS-BS-iMacM1-White'
 
-sudo apt install plank -y
+sudo apt install plank mate-tweak -y
 
 ls /mate-theme/icon-theme/
 
