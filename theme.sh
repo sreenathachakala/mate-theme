@@ -17,9 +17,11 @@ cd /mate-theme/theme/ && tar -xf $MATE_THEME.tar.xz
 cd /mate-theme/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
 cd /mate-theme/icon-theme && tar -xf $MATE_ICON_THEME.tar.xz
 cd /mate-theme/fonts && unzip $FONTFILE.zip -d $FONTFILE
-
+cd /
 git clone https://github.com/hamburgerghini1/macos-plank-themes.git
-cp -r /macos-plank-themes/.local/share/plank/themes/ /usr/share/plank/themes/
+
+
+cp -a /macos-plank-themes/.local/share/plank/themes/. /usr/share/plank/themes/
 
 cp /mate-theme/plank.desktop /etc/xdg/autostart/plank.desktop
 

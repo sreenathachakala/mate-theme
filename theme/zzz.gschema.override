@@ -22,4 +22,4 @@ picture-filename='/usr/share/backgrounds/MATE_IMAGE'
 show-desktop-icons=false
 
 [net.launchpad.plank.dock.settings]
-theme=DOCK_THEME
+theme='DOCK_THEME'
