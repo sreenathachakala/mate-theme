@@ -17,6 +17,8 @@ cd /mate-theme/fonts && unzip $FONTFILE.zip -d $FONTFILE
 git clone https://github.com/hamburgerghini1/macos-plank-themes.git
 cp -r .local/share/plank/themes/ /usr/share/plank/themes/
 
+cp /mate-theme/plank.desktop /etc/xdg/autostart/plank.desktop
+
 chown -R root:root /mate-theme/theme/$MATE_THEME
 chown -R root:root /mate-theme/theme/$MATE_THEME_DARK
 
