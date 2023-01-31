@@ -7,7 +7,7 @@ export MATE_IMAGE=Black.jpg
 export FONTFILE=IBM_Plex_Sans
 export FONT_NAME='IBM Plex Sans 11'
 export TITLEBAR_FONTNAME='IBM Plex Sans Medium 11'
-export DOCK_THEME='whitesurv1'
+export DOCK_THEME='whitesur'
 
 sudo apt install cairo-dock -y
 
