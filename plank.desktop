@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=plank -n dock
+Exec=cairo-dock -o 
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
