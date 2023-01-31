@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=cairo-dock -o 
+Exec=cairo-dock -o -d ~/cairo-dock/
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
