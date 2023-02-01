@@ -7,7 +7,7 @@ export MATE_IMAGE=Black.jpg
 export FONTFILE=IBM_Plex_Sans
 export FONT_NAME='IBM Plex Sans 11'
 export TITLEBAR_FONTNAME='IBM Plex Sans Medium 11'
-export DOCK_THEME='whitesur'
+export DOCK_THEME='current_theme.tar'
 
 sudo apt install cairo-dock -y
 
@@ -17,7 +17,7 @@ cd /mate-theme/theme/ && tar -xf $MATE_THEME.tar.xz
 cd /mate-theme/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
 cd /mate-theme/icon-theme && tar -xf $MATE_ICON_THEME.tar.xz
 cd /mate-theme/fonts && unzip $FONTFILE.zip -d $FONTFILE
-cd /mate-theme/dock-theme && tar -xf $DOCK_THEME.tar.gz
+cd /mate-theme/dock-theme && mkdir current_theme && tar -xf $DOCK_THEME -C ./current_theme/
 cd /
 # git clone https://github.com/hamburgerghini1/macos-plank-themes.git
 
