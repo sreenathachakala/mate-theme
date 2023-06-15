@@ -20,6 +20,7 @@ document-font-name='FONT_NAME'
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/MATE_IMAGE'
 show-desktop-icons=false
+picture-options='zoom'
 
 [org.mate.panel]
 toplevel-id-list=['top']
