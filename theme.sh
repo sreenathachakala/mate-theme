@@ -12,11 +12,12 @@ export ROOT_DIR='/home/dockyard/vnc'
 
 sudo apt install cairo-dock -y
 
-cd $ROOT_DIR/theme/ && tar -xf $MATE_THEME.tar.xz
-cd $ROOT_DIR/theme/ && tar -xf $MATE_THEME_DARK.tar.xz
-cd $ROOT_DIR/icon-theme && tar -xf $MATE_ICON_THEME.tar.xz
-cd $ROOT_DIR/fonts && unzip $FONTFILE.zip -d $FONTFILE
-cd $ROOT_DIR/dock-theme && mkdir current_theme && tar -xf $DOCK_THEME.tar -C ./current_theme/
+cd $ROOT_DIR/theme/ && tar -xf $MATE_THEME.tar.xz --no-same-owner
+cd $ROOT_DIR/theme/ && tar -xf $MATE_THEME_DARK.tar.xz --no-same-owner
+cd $ROOT_DIR/icon-theme && tar -xf $MATE_ICON_THEME.tar.xz --no-same-owner
+cd $ROOT_DIR/fonts && sudo unzip $FONTFILE.zip -d $FONTFILE 
+cd $ROOT_DIR/dock-theme && mkdir current_theme && tar -xf $DOCK_THEME.tar -C ./current_theme/ --no-same-owner
+
 cd /
 # git clone https://github.com/hamburgerghini1/macos-plank-themes.git
 
